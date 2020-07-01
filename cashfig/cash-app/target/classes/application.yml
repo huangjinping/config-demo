@@ -1,0 +1,33 @@
+
+server:
+  port: 3302
+
+management:
+  security:
+    enabled: false
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+data:
+  env: NaN
+  user:
+    username: NaN
+    password: NaN
+
+spring:
+  profiles:
+    active: dev
+  application:
+  name: cash-app
+
+eureka:
+  client:
+  serviceUrl:
+  defaultZone: http://localhost:8761/eureka/
+test:
+  msg: aaa

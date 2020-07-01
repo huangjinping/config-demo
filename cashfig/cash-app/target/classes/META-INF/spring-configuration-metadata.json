@@ -1,0 +1,33 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.harris.cashfig.config.GitAutoRefreshConfig",
+      "name": "data",
+      "type": "com.harris.cashfig.config.GitAutoRefreshConfig"
+    },
+    {
+      "sourceType": "com.harris.cashfig.config.GitAutoRefreshConfig",
+      "name": "data.user",
+      "sourceMethod": "getUser()",
+      "type": "com.harris.cashfig.config.GitAutoRefreshConfig$UserInfo"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.harris.cashfig.config.GitAutoRefreshConfig",
+      "name": "data.env",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.harris.cashfig.config.GitAutoRefreshConfig$UserInfo",
+      "name": "data.user.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.harris.cashfig.config.GitAutoRefreshConfig$UserInfo",
+      "name": "data.user.username",
+      "type": "java.lang.String"
+    }
+  ]
+}

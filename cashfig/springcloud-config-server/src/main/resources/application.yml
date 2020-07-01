@@ -1,0 +1,12 @@
+spring:
+  application:
+  name: config-single-server
+
+server:
+  port: 3301
+eureka:
+  client:
+  serviceUrl:
+  defaultZone: http://localhost:8761/eureka/
+test:
+  msg: aaa
